@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candy Stock Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="outer-box">
+        <div class="inner-box">
+            <header class="signup-header">
+                <h1>Candy Store</h1>
+                <p>Candy Stock Management App</p>
+            </header>
+            <main class="signup-body">
+                <form action="#" id="form">
+                    <p>
+                        <label for="candyname">Candy Name</label>
+                        <input type="text" id="candyname" placeholder="Candy name" required>
+                    </p>
+                    <p>
+                        <label for="description">Description</label>
+                        <input type="text" id="description" placeholder="Description" required>
+                    </p>
+                    <p>
+                        <label for="price">Price</label>
+                        <input type="number" id="price" value="0" required>
+                    </p>
+                    <p>
+                        <label for="quantity">quantity</label>
+                        <input type="number" id="quantity" value="0" required>
+                    </p>
+                    <p>
+                        <input type="submit" id="submit" value="Add Item">
+                    </p>
+                </form>
+            </main>
+            <div>
+                <ul id="candy-info"></ul>
+            </div>
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+</body>
+
+</html>
